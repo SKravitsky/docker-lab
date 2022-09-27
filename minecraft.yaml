@@ -12,6 +12,8 @@ services:
       ENABLE_RCON: "true"
       RCON_PASSWORD: ${RCON_PASSWORD}
       RCON_PORT: 25575
+      OPS: "31607bed-732f-4fa8-be65-93b22e3d068e"
+      MOTD: "Eli Sucks"
     restart: always
     volumes:
     - ${HOME}/minecraft_server/data:/data
